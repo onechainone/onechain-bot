@@ -27,7 +27,7 @@ def decrypt(text, key):
 
 if __name__ == "__main__":
     key = '123456'
-    text = '5KM5roxxxxYucMS'
+    text = '<your private key>'
     result = encrypt(text, key)
     print(encrypt(text, key))
     print(decrypt(result, key))
