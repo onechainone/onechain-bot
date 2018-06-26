@@ -10,7 +10,7 @@ witness_password = ""
 #: The account used here
 account = "onxxxx21"  # 你的账户名
 # 加密的账户私钥
-wif = b'\xc9\xb5\xed\x99a\xb1\xba\xb8\x90b2\xf0Y\xbeh0\x9c\r\x97\x0cr\x8b\xd3+\xe4\xb1\xeeI\xad\x04\xd4\xf5\xea\x11\xfc'
+wif = '你的加密私钥'
 
 #: Markets to watch.
 # 交易对推荐一个程序一个交易对,理论上可以设置多个,但是设置的数量值是一个,会影响逻辑.所以最好只设置一个
