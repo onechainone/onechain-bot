@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*
 
-witness_url = "ws://139.224.234.220:21203"
+# 备用节点, 如果默认的这个节点连接不稳定,可以切换到下面这个节点.
+# 120.220.14.93:21203
+witness_url = "ws://120.220.14.89:21203"
 witness_user = ""
 witness_password = ""
 
@@ -32,8 +34,7 @@ vol_max = 3
 price_min = None
 price_max = None
 
-# 防止ticker获取到的价格区间太小设置的阈值,这个在启动程序时候应该设置
+# 防止ticker获取到的价格区间太小设置的阈值,这个在启动程序时候应该设置, 设置的方式推荐参考当时买卖的最高价和最低价.
 confirm_min = 2.5739999997876272e-05
 confirm_max = 2.8000000000000003e-05
 
-# 当切换到主链上的时候,修改链ID
