@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*
 from Crypto.Cipher import AES
 # key = b'abcdefgh'
 
