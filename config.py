@@ -4,8 +4,8 @@
 # 备用节点, 如果默认的这个节点连接不稳定,可以切换到下面这个节点.
 # 120.220.14.93:21203
 witness_url = "ws://120.220.14.89:21203"
-witness_user = ""
-witness_password = ""
+witness_user = ""  # 保持默认即可
+witness_password = ""  # 保持默认即可
 
 #: The account used here
 account = "onxxxx21"  # 你的账户名
