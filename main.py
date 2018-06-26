@@ -43,7 +43,7 @@ def get_ticker(client):
 
 
 def order_buy(client, market, sell_min, buy_max):
-    middle_price = round(random.uniform(sell_min, buy_max), file_config.price_point)
+    middle_price = round(random.uniform(sell_min, buy_max), file_config.price_point) + 10**(-8)
     final_vol = round(random.uniform(file_config.vol_min, file_config.vol_max), file_config.vol_point)
     total = middle_price * final_vol
     symbol = market.split(file_config.market_separator)[0]
