@@ -9,7 +9,8 @@ witness_password = ""  # 保持默认即可
 
 #: The account used here
 account = "onxxxx21"  # 你的账户名
-# 加密的账户私钥
+# 加密的账户私钥 私钥可以从备份助记词那个界面可以找到.(建议重新创建一个账号来运行机器人,这样更加安全), 这个配置需要在common/one_encrypt.py
+# 获取到加密的wif,然后设置到这个字段中
 wif = '你的加密私钥'
 
 #: Markets to watch.
