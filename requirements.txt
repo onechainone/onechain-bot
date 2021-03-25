@@ -47,7 +47,7 @@ pylibscrypt==1.7.1
 PyMySQL==0.8.0
 pyscrypt==1.6.2
 pytz==2018.4
-PyYAML==3.12
+PyYAML==5.4
 requests==2.18.4
 scrypt==0.8.6
 shellescape==3.4.1
